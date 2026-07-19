@@ -20,40 +20,40 @@ const Scene3D = lazy(() =>
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nova Halcyon · Full-Stack Developer & Creative Technologist" },
+      { title: "Utsav Dwivedi · Full-Stack Developer & Creative Technologist" },
       {
         name: "description",
         content:
-          "Portfolio of Nova Halcyon — engineer and creative technologist building immersive 3D interfaces, real-time systems, and edge-native software.",
+          "Portfolio of Utsav Dwivedi — engineer and creative technologist building immersive 3D interfaces, real-time systems, and edge-native software.",
       },
       {
         name: "keywords",
         content:
-          "Nova Halcyon, full-stack developer, creative technologist, three.js portfolio, WebGL developer, react developer, 3D web, WebGPU, creative coding, edge-native, TypeScript, real-time systems",
+          "Utsav Dwivedi, full-stack developer, creative technologist, three.js portfolio, WebGL developer, react developer, 3D web, WebGPU, creative coding, edge-native, TypeScript, real-time systems",
       },
-      { name: "author", content: "Nova Halcyon" },
+      { name: "author", content: "Utsav Dwivedi" },
       { name: "robots", content: "index, follow, max-image-preview:large" },
       { name: "theme-color", content: "#0a0a0f" },
 
       // Open Graph
-      { property: "og:title", content: "Nova Halcyon · Portfolio" },
+      { property: "og:title", content: "Utsav Dwivedi · Portfolio" },
       {
         property: "og:description",
         content: "Immersive 3D portfolio: full-stack, WebGL, real-time systems.",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "/" },
-      { property: "og:site_name", content: "Nova Halcyon" },
+      { property: "og:site_name", content: "Utsav Dwivedi" },
       { property: "og:locale", content: "en_US" },
-      { property: "profile:first_name", content: "Nova" },
-      { property: "profile:last_name", content: "Halcyon" },
-      { property: "profile:username", content: "novahalcyon" },
+      { property: "profile:first_name", content: "Utsav" },
+      { property: "profile:last_name", content: "Dwivedi" },
+      { property: "profile:username", content: "utsavdwivedi51" },
 
       // Twitter
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@novahalcyon" },
-      { name: "twitter:creator", content: "@novahalcyon" },
-      { name: "twitter:title", content: "Nova Halcyon · Portfolio" },
+      { name: "twitter:site", content: "@utsav_dwivedi" },
+      { name: "twitter:creator", content: "@utsav_dwivedi" },
+      { name: "twitter:title", content: "Utsav Dwivedi · Portfolio" },
       {
         name: "twitter:description",
         content: "Immersive 3D portfolio: full-stack, WebGL, real-time systems.",
@@ -61,10 +61,10 @@ export const Route = createFileRoute("/")({
       { property: "og:image", content: OG_SECTIONS.hero.image },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
-      { property: "og:image:alt", content: "Nova Halcyon — immersive 3D portfolio hero" },
+      { property: "og:image:alt", content: "Utsav Dwivedi — immersive 3D portfolio hero" },
       { name: "twitter:image", content: OG_SECTIONS.hero.image },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://x.com/utsav_dwivedi51" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -74,8 +74,8 @@ export const Route = createFileRoute("/")({
             {
               "@type": "Person",
               "@id": "/#person",
-              name: "Nova Halcyon",
-              alternateName: "novahalcyon",
+              name: "Utsav Dwivedi",
+              alternateName: "utsavdwivedi",
               jobTitle: "Full-Stack Developer & Creative Technologist",
               description:
                 "Engineer and creative technologist building immersive 3D interfaces, real-time systems, and edge-native software.",
@@ -94,25 +94,25 @@ export const Route = createFileRoute("/")({
                 "3D Graphics",
               ],
               sameAs: [
-                "https://github.com/novahalcyon",
-                "https://linkedin.com/in/novahalcyon",
-                "https://twitter.com/novahalcyon",
-                "https://dribbble.com/novahalcyon",
-                "https://medium.com/@novahalcyon",
+                "https://github.com/utsavdwivedi51",
+                "https://linkedin.com/in/utsav-dwivedi51/",
+                "https://twitter.com/utsav_dwivedi51",
+                "https://dribbble.com/utsav-dwivedi",
+                "https://medium.com/@utsavdwivedi51",
               ],
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Lisbon",
-                addressCountry: "PT",
+                addressLocality: "Varanasi",
+                addressCountry: "India",
               },
-              email: "mailto:hello@novahalcyon.dev",
-              telephone: "+1-234-567-8900",
+              email: "utsavdwivedi51@gmail.com",
+              telephone: "+91-639-408-5765",
             },
             {
               "@type": "WebSite",
               "@id": "/#website",
               url: "/",
-              name: "Nova Halcyon · Portfolio",
+              name: "Utsav Dwivedi · Portfolio",
               description:
                 "Immersive 3D portfolio showcasing full-stack engineering, WebGL, and real-time systems work.",
               inLanguage: "en-US",
@@ -123,7 +123,7 @@ export const Route = createFileRoute("/")({
               "@type": "ProfilePage",
               "@id": "/#profilepage",
               url: "/",
-              name: "Nova Halcyon · Portfolio",
+              name: "Utsav Dwivedi · Portfolio",
               about: { "@id": "/#person" },
               mainEntity: { "@id": "/#person" },
               isPartOf: { "@id": "/#website" },
