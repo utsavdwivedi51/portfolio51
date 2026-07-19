@@ -142,7 +142,7 @@ export function Projects() {
                 <a href="https://utsavdwivedi51.github.io/Attendance-ERP/" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest text-primary-foreground neon-glow-cyan" style={{ background: "var(--gradient-neon)" }}>
                   <ExternalLink className="size-3.5" /> Live Demo
                 </a>
-                <a href="https://github.com/utsavdwivedi51?tab=repositories" className="glass inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest">
+                <a href="https://github.com/utsavdwivedi51" className="glass inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest">
                   <Github className="size-3.5" /> Repository
                 </a>
               </div>
