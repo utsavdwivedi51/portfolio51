@@ -4,7 +4,7 @@ import { ExternalLink, Github, X } from "lucide-react";
 
 type Project = {
   title: string;
-  category: "Web" | "Mobile" | "AI/ML" | "Blockchain" | "Games";
+  category: "Web" | "Mobile" | "AI/ML";
   short: string;
   detail: string;
   stack: string[];
@@ -12,15 +12,12 @@ type Project = {
 };
 
 const PROJECTS: Project[] = [
-  { title: "Aurora Grid", category: "Web", short: "Real-time collaborative canvas rendering millions of vector nodes.", detail: "A CRDT-backed spatial canvas with GPU-accelerated culling. Solved conflict-free multi-user editing under 40ms of latency across regions.", stack: ["React", "WebGL", "Rust", "CRDT"], hue: "#00f0ff" },
-  { title: "Neon Ledger", category: "Blockchain", short: "Zero-knowledge micro-payments settled on rollup L2.", detail: "Built a payment channel network with sub-cent fees. Cryptographic proof generation offloaded to WASM workers.", stack: ["TypeScript", "Solidity", "Circom", "zk-SNARK"], hue: "#ff00ff" },
-  { title: "Deepdream Studio", category: "AI/ML", short: "Node-based visual pipeline for diffusion models.", detail: "Drag-and-drop composition of latent operations. Preview streamed frame-by-frame from a distributed worker fleet.", stack: ["Python", "PyTorch", "Next.js", "gRPC"], hue: "#00ff88" },
-  { title: "Halcyon OS", category: "Mobile", short: "Ambient home dashboard with gesture-first navigation.", detail: "Written in Flutter with a custom rendering layer for depth-aware haptics. Pairs with a Rust daemon on-device.", stack: ["Flutter", "Rust", "BLE", "Metal"], hue: "#0066ff" },
-  { title: "Nebula Racer", category: "Games", short: "WebGPU-powered spatial racing game with realtime physics.", detail: "Multiplayer racer running on WebGPU. Compute shaders drive vehicle physics and a custom fog-volume renderer.", stack: ["WebGPU", "TypeScript", "Rapier", "WASM"], hue: "#ff00ff" },
-  { title: "Prism Analytics", category: "Web", short: "Streaming warehouse dashboards on the edge.", detail: "Ingests 200k events/sec via a homegrown columnar cache. Charts stream from a WASM query engine in the browser.", stack: ["Rust", "DuckDB", "React", "Cloudflare"], hue: "#00f0ff" },
+  { title: "Attendance ERP System", category: "Web", short: "ERP-style system for tracking and managing attendance records.", detail: "Built with a focus on clean data flow between roles and a straightforward admin workflow — handles role-based access, record entry, and reporting without unnecessary complexity.", stack: ["React", "Node.js", "MongoDB"], hue: "#0066ff" },
+  { title: "Cheapkart", category: "Web", short: "Price-comparison e-commerce app for browsing and comparing listings.", detail: "Full-stack CRUD platform built to practice a real shopping UI end to end — product listings, cart flow, and comparison logic backed by a proper data layer.", stack: ["React", "Express", "MongoDB"], hue: "#ff00ff" },
+  { title: "QuickTalk", category: "Web", short: "Real-time chat application focused on fast, minimal messaging.", detail: "Socket-driven chat app prioritizing low-latency message delivery and a distraction-free conversation UI over feature bloat.", stack: ["React", "Node.js", "Socket.io"], hue: "#00ff88" },
+  { title: "Resume Analyzer", category: "AI/ML", short: "Parses uploaded resumes and surfaces structured feedback.", detail: "Text-parsing utility that extracts structured data from resumes and generates actionable feedback — built to explore practical NLP-adjacent tooling.", stack: ["Python", "JavaScript"], hue: "#00f0ff" },
 ];
-
-const FILTERS = ["All", "Web", "Mobile", "AI/ML", "Blockchain", "Games"] as const;
+const FILTERS = ["All", "Web", "AI/ML"] as const;
 
 export function Projects() {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All");
@@ -142,10 +139,10 @@ export function Projects() {
                 ))}
               </div>
               <div className="flex gap-3">
-                <a href="#" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest text-primary-foreground neon-glow-cyan" style={{ background: "var(--gradient-neon)" }}>
+                <a href="https://utsavdwivedi51.github.io/Attendance-ERP/" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest text-primary-foreground neon-glow-cyan" style={{ background: "var(--gradient-neon)" }}>
                   <ExternalLink className="size-3.5" /> Live Demo
                 </a>
-                <a href="#" className="glass inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest">
+                <a href="https://github.com/utsavdwivedi51?tab=repositories" className="glass inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-display text-xs uppercase tracking-widest">
                   <Github className="size-3.5" /> Repository
                 </a>
               </div>
