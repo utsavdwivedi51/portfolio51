@@ -38,11 +38,11 @@ function useTypewriter() {
 }
 
 const SOCIALS = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Dribbble, label: "Dribbble", href: "#" },
-  { icon: BookOpen, label: "Medium", href: "#" },
+  { icon: Github, label: "GitHub", href: "https://github.com/utsavdwivedi51" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/utsav-dwivedi51/" },
+  { icon: Twitter, label: "Twitter", href: "https://x.com/utsav_dwivedi51" },
+  { icon: Dribbble, label: "Dribbble", href: "https://dribbble.com/utsav-dwivedi" },
+  { icon: BookOpen, label: "Medium", href: "https://medium.com/@utsavdwivedi51" },
 ];
 
 export function Hero() {
@@ -68,9 +68,9 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 0.15 }}
           className="font-display font-black text-6xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9]"
         >
-          <span className="text-gradient">NOVA</span>
+          <span className="text-gradient">UTSAV</span>
           <br />
-          <span className="text-foreground/90">HALCYON</span>
+          <span className="text-foreground/90">DWIVEDI</span>
         </motion.h1>
 
         <motion.div
