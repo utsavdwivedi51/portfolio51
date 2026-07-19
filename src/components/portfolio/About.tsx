@@ -125,7 +125,7 @@ export function About() {
             <div className="flex items-center gap-4">
               <div className="relative size-20 rounded-2xl overflow-hidden neon-border" style={{ background: "var(--gradient-neon)" }}>
                 <div className="absolute inset-1 rounded-xl bg-background/70 backdrop-blur flex items-center justify-center font-display text-2xl font-black text-gradient">
-                  NH
+                  UD
                 </div>
               </div>
               <div>
@@ -154,7 +154,7 @@ export function About() {
 
             <div className="grid grid-cols-3 gap-4 pt-4 border-t border-border/50">
               <div>
-                <div className="font-display text-3xl font-bold text-gradient"><Counter to={10} suffix="+" /></div>
+                <div className="font-display text-3xl font-bold text-gradient"><Counter to={1} suffix="+" /></div>
                 <div className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground mt-1">Years shipping</div>
               </div>
               <div>
@@ -162,7 +162,7 @@ export function About() {
                 <div className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground mt-1">Projects delivered</div>
               </div>
               <div>
-                <div className="font-display text-3xl font-bold text-gradient"><Counter to={12} suffix="M+" /></div>
+                <div className="font-display text-3xl font-bold text-gradient"><Counter to={1} suffix="K+" /></div>
                 <div className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground mt-1">Users touched</div>
               </div>
             </div>
