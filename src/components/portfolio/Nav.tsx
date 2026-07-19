@@ -56,7 +56,7 @@ export function Nav() {
       <header className="fixed top-4 left-1/2 -translate-x-1/2 z-40">
         <nav className="glass-strong rounded-full px-6 py-2.5 flex items-center gap-1 text-xs font-display">
           <a href="#hero" className="pr-4 mr-1 border-r border-border/60 text-gradient font-bold tracking-widest">
-            NOVA.DEV
+            UTSAV.DEV
           </a>
           {SECTIONS.map((s) => (
             <a
