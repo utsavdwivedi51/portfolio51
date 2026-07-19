@@ -127,8 +127,7 @@ function NeonGrid() {
     <gridHelper
       args={[80, 40, "#ff00ff", "#00f0ff"]}
       position={[0, -6, 0]}
-      // @ts-expect-error - drei types
-      material-transparent
+      // @ts-ignore drei prop passthrough
       material-opacity={0.35}
     />
   );
