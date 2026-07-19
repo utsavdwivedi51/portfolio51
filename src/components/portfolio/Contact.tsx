@@ -5,16 +5,15 @@ import { toast } from "sonner";
 
 const SUBJECTS = ["New project", "Collaboration", "Speaking", "Just saying hi"];
 const CONTACTS = [
-  { icon: Mail, label: "Email", value: "hello@novahalcyon.dev" },
-  { icon: Phone, label: "Phone", value: "+1 234 567 8900" },
-  { icon: MapPin, label: "Location", value: "Lisbon · Portugal" },
+  { icon: Mail, label: "Email", value: "utsavdwivedi51@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+91 6394085765" },
+  { icon: MapPin, label: "Location", value: "Varanasi · India" },
 ];
 const SOCIALS = [
-  { icon: Github, label: "GitHub", handle: "@novahalcyon" },
-  { icon: Linkedin, label: "LinkedIn", handle: "/in/novahalcyon" },
-  { icon: Twitter, label: "Twitter", handle: "@novahalcyon" },
-  { icon: Instagram, label: "Instagram", handle: "@nova.halcyon" },
-  { icon: Youtube, label: "YouTube", handle: "@novahalcyon" },
+  { icon: Github, label: "GitHub", handle: "https://github.com/utsavdwivedi51" },
+  { icon: Linkedin, label: "LinkedIn", handle: "https://www.linkedin.com/in/utsav-dwivedi51/" },
+  { icon: Twitter, label: "Twitter", handle: "https://x.com/utsav_dwivedi51" },
+  { icon: Instagram, label: "Instagram", handle: "https://www.instagram.com/utsav_dwi_vedi/" },
 ];
 
 export function Contact() {
