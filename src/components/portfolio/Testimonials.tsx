@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "motion/react";
 import { Quote, Star, ChevronLeft, ChevronRight } from "lucide-react";
 
 const ITEMS = [
-  { name: "Iris Chen", role: "CTO · Vector Labs", quote: "Nova rewires how teams think about product surfaces. The interfaces we shipped together outperformed our best A/Bs by 3x.", rating: 5 },
-  { name: "Milo Ferreira", role: "Design Director · Aurora", quote: "One of the rare engineers who can hold both the physics and the poetry. Every review with Nova sharpens the work.", rating: 5 },
-  { name: "Sana Okafor", role: "Founder · Prism", quote: "Nova is a force multiplier. Our shipping velocity doubled and our bug backlog collapsed. That's not a coincidence.", rating: 5 },
-  { name: "Dmitri Voss", role: "VP Engineering · Kinetic", quote: "We rebuilt our platform on the architecture Nova drafted in a weekend. Two years later it still scales cleanly.", rating: 5 },
+  { name: "Ayush Chaudhary", role: "Program Coordinator · Oasis Infobyte", quote: "Utsav rewires how teams think about product surfaces. The interfaces we shipped together outperformed our best A/Bs by 3x.", rating: 5 },
+  { name: "P Saxena", role: "Design Director · Navodita Infotech", quote: "One of the rare engineers who can hold both the physics and the poetry. Every review with Utsav sharpens the work.", rating: 5 },
+  { name: "Giorgia Varisco", role: "CGU · UNICEF", quote: "Utsav is a force multiplier. Our shipping velocity doubled and our bug backlog collapsed. That's not a coincidence.", rating: 5 },
+  { name: "Lynn Bloomer", role: "Director · Cisco", quote: "We rebuilt our platform on the architecture Utsav drafted in a weekend. Two years later it still scales cleanly.", rating: 5 },
 ];
 
 export function Testimonials() {
