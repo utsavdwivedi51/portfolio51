@@ -1,47 +1,32 @@
 import { motion } from "motion/react";
-
 const ITEMS = [
   {
-    role: "Principal Engineer",
-    company: "Aurora Labs",
-    period: "2024 — Present",
-    points: [
-      "Founded the spatial computing team, shipped 3 flagship WebXR products",
-      "Cut render pipeline latency 62% with a bespoke culling system",
-      "Mentored 14 engineers; two promoted to staff",
-    ],
-    tech: ["React", "Three.js", "WebGPU", "Rust"],
-  },
-  {
-    role: "Senior Full-Stack Engineer",
-    company: "Kinetic Studio",
-    period: "2022 — 2024",
-    points: [
-      "Rebuilt collaboration layer on CRDTs — 400k daily active users",
-      "Owned platform reliability from 99.5% → 99.98%",
-      "Wrote design-tokens pipeline adopted across 6 product teams",
-    ],
-    tech: ["TypeScript", "Node", "Postgres", "Redis"],
-  },
-  {
-    role: "Product Engineer",
-    company: "Vector Co.",
-    period: "2020 — 2022",
-    points: [
-      "Migrated monolith to edge-native serverless — 40% cost reduction",
-      "Built a real-time analytics engine over ClickHouse",
-    ],
-    tech: ["Next.js", "Cloudflare", "ClickHouse"],
-  },
-  {
     role: "Software Engineer",
-    company: "Northwind Digital",
-    period: "2018 — 2020",
+    company: "TEK Inspirations Pvt. Ltd.",
+    period: "2026 — Present",
     points: [
-      "First engineer. Shipped the MVP that secured the seed round",
-      "Built the CI/CD and infra playbook still used today",
+      "Full-stack development across client projects, from data modeling to shipped UI",
     ],
-    tech: ["Ruby", "React", "AWS"],
+    tech: ["React", "Node.js", "MySql"],
+  },
+  {
+    role: "Web Development & Designing Intern",
+    company: "Oasis Infobyte",
+    period: "11-month internship, concluded Dec 2025",
+    points: [
+      "Recognized in a formal letter of recommendation for technical proficiency and consistent, deadline-driven delivery",
+      "Praised for strong analytical and problem-solving skills, working effectively both independently and within a team",
+    ],
+    tech: ["Web Development", "UI/UX Design"],
+  },
+  {
+    role: "Cyber Security Intern",
+    company: "Navodita Infotech",
+    period: "Jul 2025 — Aug 2025",
+    points: [
+      "Completed a hands-on cyber security internship covering core security fundamentals",
+    ],
+    tech: ["Cyber Security"],
   },
 ];
 
