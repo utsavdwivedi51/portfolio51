@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="relative px-6 py-16 border-t border-border/40">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="font-display font-black text-2xl text-gradient tracking-widest">NOVA.DEV</div>
+        <div className="font-display font-black text-2xl text-gradient tracking-widest">UTSAV.DEV</div>
         <div className="flex flex-wrap justify-center gap-6 text-xs font-mono uppercase tracking-widest text-muted-foreground">
           <a href="#hero" className="hover:text-primary transition-colors">Home</a>
           <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
@@ -26,7 +26,7 @@ export function Footer() {
         </div>
       </div>
       <div className="text-center text-[10px] font-mono uppercase tracking-widest text-muted-foreground mt-10">
-        © {new Date().getFullYear()} Nova Halcyon · All signals reserved
+        © {new Date().getFullYear()} Utsav Dwivedi · All signals reserved
       </div>
     </footer>
   );
