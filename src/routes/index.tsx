@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { lazy, Suspense } from "react";
 import { Toaster } from "sonner";
+import { OG_SECTIONS } from "@/lib/og-sections";
 import { Nav } from "@/components/portfolio/Nav";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
@@ -57,6 +58,11 @@ export const Route = createFileRoute("/")({
         name: "twitter:description",
         content: "Immersive 3D portfolio: full-stack, WebGL, real-time systems.",
       },
+      { property: "og:image", content: OG_SECTIONS.hero.image },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: "Nova Halcyon — immersive 3D portfolio hero" },
+      { name: "twitter:image", content: OG_SECTIONS.hero.image },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [
