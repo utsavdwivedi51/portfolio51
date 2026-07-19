@@ -5,16 +5,13 @@ const SKILLS = [
   { label: "Frontend", value: 95 },
   { label: "Backend", value: 88 },
   { label: "Database", value: 82 },
-  { label: "DevOps", value: 78 },
   { label: "Design", value: 84 },
   { label: "Mobile", value: 72 },
 ];
 
 const TIMELINE = [
-  { year: "2024", role: "Principal Engineer", org: "Aurora Labs", desc: "Leading a spatial-computing team building WebXR experiences." },
-  { year: "2022", role: "Senior Full-Stack", org: "Kinetic Studio", desc: "Shipped real-time collaboration tools used by 400k designers." },
-  { year: "2020", role: "Product Engineer", org: "Vector Co.", desc: "Rebuilt the product platform on a serverless edge stack." },
-  { year: "2018", role: "Software Engineer", org: "Northwind Digital", desc: "First engineer. Built the MVP that raised the seed round." },
+  { year: "2026", role: "Software Engineer", org: "Northwind Digital", desc: "Shipped real-time collaboration tools used by 400k designers." },
+  { year: "2025", role: "Web Developer", org: "Oasis Infobyte", desc: "First engineer. Built the MVP that raised the seed round." },
 ];
 
 function RadarChart({ skills }: { skills: typeof SKILLS }) {
@@ -132,7 +129,7 @@ export function About() {
                 </div>
               </div>
               <div>
-                <div className="font-display text-2xl font-bold">Nova Halcyon</div>
+                <div className="font-display text-2xl font-bold">Utsav Dwivedi</div>
                 <div className="font-mono text-xs text-muted-foreground tracking-widest uppercase">Engineer · Artist · Systems Thinker</div>
               </div>
               <div className="ml-auto flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-primary">
@@ -140,7 +137,7 @@ export function About() {
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              I've spent a decade turning ambitious ideas into shipped systems — from
+              I've spent a years turning ambitious ideas into shipped systems - from
               spatial interfaces that respond to breath, to backend fabrics that keep
               humming under a million concurrent souls. My work sits at the fault line
               between engineering rigor and design instinct.
